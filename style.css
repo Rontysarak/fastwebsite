@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 h1{
@@ -12,5 +13,24 @@ h1{
     padding: 2%;
 }
 .hlaf img {
-    width: 100%;
+    width: 80%;
+    margin-left:3% ;
+
+}
+.banner {
+    background-image: url("image/top-banner.png");
+    background-repeat: no-repeat;
+
+}
+section{
+    height: 500px;
+
+}
+.button {
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 20px ;
+    border-radius:5px;
+    color:white;
+    font-weight:700px;
 }
