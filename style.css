@@ -8,7 +8,7 @@ h1{
 h2{
     font-size: 40px;
 }
-.textcolor{color: red;}
+.textcolor{color: orange;}
 .hlaf{
     width: 40%;
     float: left;
@@ -29,7 +29,7 @@ section{
 }
 .button {
     text-decoration: none;
-    background-color: orange;
+    background-image: linear-gradient(lightsalmon, tomato);
     padding: 10px 20px ;
     border-radius:5px;
     color:white;
@@ -38,9 +38,37 @@ section{
 }
 .dream{
     margin-top: 12%;
+    margin-block-end: 10%;
     background-image: url("image/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
 }
-
-
+.experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+    
+}
+.experience-area{
+    background-image: url(image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-block-end: 12%;
+    
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image:linear-gradient(180deg,blue,cyan );
+    border-image-slice: 1;
+    
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
