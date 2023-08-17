@@ -25,6 +25,7 @@ h2{
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
 
 }
 .button {
@@ -37,8 +38,7 @@ section{
    
 }
 .dream{
-    margin-top: 12%;
-    margin-block-end: 10%;
+    
     background-image: url("image/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
@@ -54,7 +54,7 @@ section{
     background-image: url(image/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
-    margin-block-end: 12%;
+   
     
 }
 #full-stack{
